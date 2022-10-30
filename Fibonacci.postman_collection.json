@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "16c34955-af7c-4ed4-8608-33a50f002be5",
+		"name": "Fibonacci",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19717077"
+	},
+	"item": [
+		{
+			"name": "Calculo de Finobacci",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/?amount=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "amount",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
